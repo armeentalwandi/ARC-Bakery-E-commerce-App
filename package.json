@@ -19,7 +19,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    
+    "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "eslintConfig": {
@@ -47,6 +47,7 @@
     "eslint-plugin-react": "^7.22.0",
     "nodemon": "^2.0.6"
   },
+  "engines": {"node":"12.4.0","npm":"6.9.0"},
   
   "author": "",
   "license": "ISC"
